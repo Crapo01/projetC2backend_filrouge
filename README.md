@@ -12,6 +12,6 @@ https://learn.microsoft.com/fr-fr/sql/connect/php/step-1-configure-development-e
 
 en verifiant sur phpinfo():
 ![image](https://github.com/user-attachments/assets/89b29fea-a262-47c1-af5d-c7cc1d64a987)
-php version
-architecture
-thread safety
+-php version
+-architecture
+-thread safety
