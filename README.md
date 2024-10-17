@@ -7,6 +7,8 @@ Access database SQLserver and MONGODB with PHP
 WAMPSERVER
 [lien](https://www.wampserver.com/en/download-wampserver-64bits/)
 
+## SQLSRVR set up
+
 ajouter les drivers:
 [lien](https://learn.microsoft.com/fr-fr/sql/connect/php/step-1-configure-development-environment-for-php-development?view=sql-server-ver16)
 
