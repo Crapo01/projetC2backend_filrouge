@@ -15,4 +15,13 @@ en verifiant sur phpinfo():
 
 php version  
 architecture  
-thread safety  
+thread safety 
+
+retirer les infos de version des drivers dans /ext puis...
+
+![image](https://github.com/user-attachments/assets/67c22d5a-7a6b-49ed-b73b-73607c844eeb)
+
+mettre a jour php.ini avec:  
+extension=php_pdo_sqlsrv.dll  
+extension=php_sqlsrv.dll  
+
