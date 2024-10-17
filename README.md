@@ -7,7 +7,7 @@ Access database SQLserver and MONGODB with PHP
 WAMPSERVER
 [lien](https://www.wampserver.com/en/download-wampserver-64bits/)
 
-## SQLSRVR set up
+## SQLSRVR setup
 
 ajouter les drivers:
 [lien](https://learn.microsoft.com/fr-fr/sql/connect/php/step-1-configure-development-environment-for-php-development?view=sql-server-ver16)
@@ -26,4 +26,19 @@ retirer les infos de version des drivers dans /ext puis...
 mettre a jour php.ini avec:  
 extension=php_pdo_sqlsrv.dll  
 extension=php_sqlsrv.dll  
+
+## MONGODB setup
+
+ajouter le driver:
+[lien](https://www.php.net/manual/en/mongodb.installation.windows.php)
+
+mettre a jour php.ini avec:  
+extension=php_mongodb.dll  
+
+utiliser composer à la racine du projet pour ajouter la librairie mongodb
+[lien](https://www.php.net/manual/en/mongodb.tutorial.library.php)
+
+en ligne de commande:  
+composer require mongodb/mongodb
+
 
